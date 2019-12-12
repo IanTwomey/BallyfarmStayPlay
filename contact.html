@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+
+<!-- use viewpoint meta tag to make the website responsive !-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>
+
+
+
+Ballyfarm StayPlay
+
+</title>
+
+<!-- call the CSS stylesheet !-->
+
+<link rel="stylesheet" type="text/css" href="FlexFit.css">
+
+
+
+<!-- call the JavaScript file !-->
+<script src="FlexFit.js"></script>
+
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="../ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="../cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="../maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+
+
+
+
+
+<body>
+<content>
+
+<div class="header">
+<h1 id="myH1">
+
+Ballyfarm
+
+</h1>
+<!-- Top navigation -->
+<div class="nav-section">
+
+<nav id="mynav">
+<ul>
+
+<li><a href = "index.html">Home</a></li>
+<li><a href = "about.html">About Us</a></li>
+<li><a href = "contact.html">Contact Us</a></li>
+<li><a href = "facilities.html">Our Facilities</a></li>
+<li><a href = "classes.html">Classes</a></li>
+
+</ul>
+
+</nav>
+
+  <!-- Centered link
+  <div class="topnav-centered">
+    <a href="#home" class="active">Home</a>
+  </div>  -->
+
+  <!-- Left-aligned links (default) 
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a> -->
+
+  <!-- Right-aligned links 
+  <div class="topnav-right">
+    <a href="#search">Search</a>
+    <a href="#about">About</a>
+  </div>-->
+
+</div>
+
+<br>
+<br>
+<br>
+
+<br>
+<br>
+
+<!--<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  width: 5%;
+  
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>-->
+
+<body>
+
+<p id = "myP4">Contact us using the form below</p>
+<div>
+
+<style type="text/css">
+.form-style-1 {
+border: medium solid black;
+}
+.form-style-1 {
+	margin:10px auto;
+	max-width: 400px;
+	padding: 20px 12px 10px 20px;
+	font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style-1 li {
+	padding: 0;
+	display: block;
+	list-style: none;
+	margin: 10px 0 0 0;
+}
+.form-style-1 label{
+	margin:0 0 3px 0;
+	padding:0px;
+	display:block;
+	font-weight: bold;
+}
+.form-style-1 input[type=text], 
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea, 
+select{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border:1px solid #BEBEBE;
+	padding: 7px;
+	margin:0px;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;	
+}
+.form-style-1 input[type=text]:focus, 
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus, 
+.form-style-1 select:focus{
+	-moz-box-shadow: 0 0 8px #88D5E9;
+	-webkit-box-shadow: 0 0 8px #88D5E9;
+	box-shadow: 0 0 8px #88D5E9;
+	border: 1px solid #88D5E9;
+}
+.form-style-1 .field-divided{
+	width: 49%;
+}
+
+.form-style-1 .field-long{
+	width: 100%;
+}
+.form-style-1 .field-select{
+	width: 100%;
+}
+.form-style-1 .field-textarea{
+	height: 100px;
+}
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+	background: #4B99AD;
+	padding: 8px 15px 8px 15px;
+	border: none;
+	color: #fff;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+	background: #4691A4;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+.form-style-1 .required{
+	color:red;
+}
+</style>
+
+
+<form action="javascript:;" onsubmit="myFunction(this)";>
+<ul class="form-style-1">
+    <li><label>Full Name <span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="First" /> <input type="text" name="field2" class="field-divided" placeholder="Last" /></li>
+    <li>
+        <label>Email <span class="required">*</span></label>
+        <input type="email" name="field3" class="field-long" />
+    </li>
+    <li>
+        <label>Contact</label>
+        <select name="field4" class="field-select">
+        <option value="Reservations">Reservations</option>
+        <option value="John">John Neal, Meditation/Yoga</option>
+        <option value="Anne">Anne Hegarty, Horse Riding</option>
+        <option value="Michael">Michael Jacob, Cookery</option>
+        </select>
+    </li>
+    <li>
+        <label>Your Message <span class="required">*</span></label>
+        <textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
+    </li>
+    <li>
+        <input type="submit" value="Submit" />
+    </li>
+</ul>
+</form>
+<!--<div>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="trainer">Trainer</label>
+    <select id="trainer" name="contact">
+      <option value="Reservations">Reservations</option>
+      <option value="John">John Neal, Meditation/Yoga</option>
+      <option value="Anne">Anne Hegarty, Horse Riding</option>
+      <option value="Michael">Michael Jacob, Cookery</option>
+    </select>
+	<br>
+	<br>
+	<label for="classes">Which classes interest you?</label>
+	<!--<select id="classes" name="classes"> -->
+	<!--<br>
+	<input type = "checkbox" name="classes" value="Spin">Spin
+	<input type = "checkbox" name="classes" value="Bodypump">Bodypump
+	<input type = "checkbox" name="classes" value="Pilates">Pilates
+	<input type = "checkbox" name="classes" value="Boxercise">Boxercise
+	
+  
+    <input type="submit" value="Submit">
+  </form>
+</div> -->
+</div>
+
+<br>
+<br>
+<br>
+
+<div>
+
+<p id = "myP4">
+
+Our location:
+Ballyfarm StayPlay is located in the heart of Cork in the South of Ireland. As well as providing overnight guest accommodation we are a working Organic farm with sheep, Irish Moiled Cattle and Irish Draught Horses.
+Cork Airport and Rosslare Ferry Port are the nearest points of entry into the country.
+If using a Smart Phone App please enter either Eircode P67 AW72 or Ballyfarm, Cork.From Mitchelstown take the R665 signposted for Mallow. At the first roundabout turn a right. Follow this narrow country lane for approx 1 km and our entrance will be on the left hand side. There is a sign at the gate. You can see the house from the road.
+Please note that we live in a very rural location you won't be able to search for Ballygarrane on Google you will have to search with Google coordinates.!
+</p>
+
+</div>
+<div class="mapouter"><div class="gmap_canvas"><iframe width="1080" height="352" id="gmap_canvas" src="https://maps.google.com/maps?q=52%C2%B016'04.9%22N%208%C2%B017'31.6%22W&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/nordvpn-coupon-code/">nordvpn black friday</a></div><style>.mapouter{position:relative;text-align:right;height:352px;width:1080px;}.gmap_canvas {overflow:hidden;background:none!important;height:352px;width:1080px;}</style></div>
+
+<!--<div class="video-container">iframe <iframe src="https://www.youtube.com/embed/ZG3YTqOlIkI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></ifra src="https://www.youtube.com/embed/ZG3YTqOlIkI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div> !-->
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/ZG3YTqOlIkI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> !-->
+
+</content>
+
+<footer class="footer">
+
+<div class="col-6">
+  <p id="myP1">Ballyfarm StayPlay</p>
+  <p id="myP1">Ballygarrane</p>
+  <p id="myP1">Mitchelstown</p>
+  <p id="myP1">Co. Cork</>
+  <p id="myP1">021 492 3333</>
+  <p id ="myP1"><a href="mailto:info@BallyFarmStayPlay.ie">info@BallyFarmStayPlay.ie</a></p>
+ </div>
+ 
+ <div class="colr-6">
+ 
+ <p id="myP1">Visit us on social media</p>
+ <!-- Add icon library functionality found through w3cschools.com-->
+<link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+<a href="http://www.facebook.com/" class="fa fa-facebook"></a>
+<a href="http://www.twitter.com/" class="fa fa-twitter"></a>
+<a href="http://www.instagram.com/" class="fa fa-instagram"></a>
+<a href="http://www.youtube.com/" class="fa fa-youtube"></a>
+<a href="http://www.linkedin.com/" class="fa fa-linkedin"></a>
+ 
+ 
+ </div>
+   
+  
+</footer>
+
+
+</body>
+
+
+
+</div>
