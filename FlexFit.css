@@ -42,7 +42,7 @@
 	font-size: 20px;
 	text-transform: uppercase;
 	font-weight: 600;
-	color: blue;
+	color: green;
 	transition: background-color 0.5s ease;
 	
 }
@@ -205,7 +205,7 @@ font-family: arial;
 font-size:6.5vw;
 font-weight: bold}
 
-#myH2 {color: blue;
+#myH2 {color: green;
 padding-top: 20px;
 text-align: left;
 font-family: arial;
@@ -308,7 +308,7 @@ background-color: white;}
 padding: 30px;
 height: 330px;
 position: relative;
-background-color: #add4e6;
+background-color: #72b84f;
 }
 
 .clearfooter {
